@@ -1,0 +1,28 @@
+.btn {
+    height: 48px;
+    min-width: 60px;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    font-size: rem;
+    background-color:aqua;
+    color: mediumblue;
+    cursor: pointer;
+    margin-left: 2rem;
+  }
+  
+ 
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+span {
+    margin: 0 20px; /* Adjust margin as needed */
+    font-size: 18px;
+}
+
+.btn-above-10 {
+    background-color: red; /* Orange background */
+}
