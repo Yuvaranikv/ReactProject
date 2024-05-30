@@ -4,6 +4,8 @@ import Counter from './Counter';
 import SignUpForm from './SignUpForm';
 
 import ToDoApp from './ToDoApp';
+import ToDoList from './ToDoList';
+
 
 function App() {
   const name = "Yuvarani";
@@ -15,6 +17,8 @@ function App() {
      <Counter></Counter>
     
      <SignUpForm></SignUpForm>
+
+     <ToDoList></ToDoList>
     </div>
   );
 }
