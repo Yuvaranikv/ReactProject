@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './App.css';
+
 import './SignUpForm.css'
 
 export default function SignUpForm() {
@@ -34,6 +34,7 @@ export default function SignUpForm() {
     return (
         <div>
             <form onSubmit={handleSubmit}>
+                <h1>SignUpForm Exercise</h1>
                 <input name='firstName' placeholder='First Name' value={formData.firstName} onChange={handleChange} />
                 <input name='lastName' placeholder='Last Name' value={formData.lastName} onChange={handleChange} />
                 <input name='email' placeholder='Email' value={formData.email} type="email" onChange={handleChange} />

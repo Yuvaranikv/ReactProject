@@ -38,7 +38,9 @@ const Counter = () => {
     }
     const buttonClass = count > 10 ? "btn btn-above-10" : "btn";
     return (
+        
         <div className="container">
+           <h1>Counter Exercise</h1>
             <button className={buttonClass} onClick={handleIncrement} disabled={count >= 20}  >+  </button>
             <span >{count}</span>
 
