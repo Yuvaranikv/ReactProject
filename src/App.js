@@ -8,6 +8,8 @@ import WithMemo from './WithMemo';
 import WithoutMemo from './WithoutMemo';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NavBar from './NavBar';
+import NotFound from './NotFound';
+import Jeopardy from './Jeopardy';
 
 function App() {
   const name = "Yuvarani";
@@ -22,8 +24,10 @@ function App() {
           <Route path='/counter' element={<Counter />} />
           <Route path='/signup' element={<SignUpForm />} />
           <Route path='/todolist' element={<ToDoList />} />
-          <Route path='/without-memo' element={<WithoutMemo />} />
-          <Route path='/with-memo' element={<WithMemo />} />
+          <Route path='/WithoutMemo' element={<WithoutMemo />} />
+          <Route path='/Withmemo' element={<WithMemo />} />
+          <Route path='*' element={<NotFound />}/>
+          <Route path='Jeopardy' element={<Jeopardy/>}/>
         </Routes>
       </div>
     </Router>

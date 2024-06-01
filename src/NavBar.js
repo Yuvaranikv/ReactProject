@@ -9,6 +9,9 @@ function NavBar() {
         <li><Link to="/counter">Counter</Link></li>
         <li><Link to="/signup">Sign Up</Link></li>
         <li><Link to="/todolist">ToDo List</Link></li>
+        <li><Link to="/WithoutMemo">WithoutMemo</Link></li>
+        <li><Link to="/WithMemo">WithMemo</Link></li>
+        <li><Link to="/Jeopardy">Jeopardy</Link></li>
       </ul>
     </nav>
   );
